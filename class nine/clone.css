@@ -1,0 +1,257 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+.nav {
+    background-color: black;
+    color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 5vh;
+    padding: 0 24px;
+    cursor: pointer;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+    padding-left: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding-right: 40px;
+
+}
+
+.link ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    font-size: 15px;
+    transition: 4s;
+}
+
+.link ul li a:hover {
+    background-color: gainsboro;
+    transform: scale(2);
+    padding: 13px 15px;
+}
+
+.head {
+    background-image: linear-gradient(rgba(247, 182, 85, 0.5),
+            rgba(122, 107, 65, 0.5)),
+        url("image.png");
+    url(image.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.head h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+    font-size: 35px;
+    color: white;
+}
+
+.head span {
+    color: rgb(236, 134, 0);
+    margin-right: 15px;
+}
+
+.head p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.but {
+    display: block;
+    margin: auto;
+    width: 20vh;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-spacing: 4px;
+    border-radius: 20px;
+
+}
+
+.head button:hover {
+    background-color: rgb(158, 94, 21);
+    transition: 3s;
+
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.photo {
+    width: 200vh;
+    height: 90vh;
+
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(14, 13, 12, 0.5)), url(movenpick-hotel-karachi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hed {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+.sec span {
+    color: rgb(196, 144, 77);
+}
+
+.sec p {
+    text-align: center;
+    font-weight: 500;
+
+    font-size: 18px;
+}
+
+.sec button {
+    display: block;
+    margin: auto;
+    font-weight: 600;
+    width: 20vh;
+    height: 6vh;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-spacing: 4px;
+    border-radius: 20px;
+
+
+}
+
+.sec button:hover {
+    background-color: rgb(158, 94, 21);
+    transition: 3s;
+}
+.card{
+    display: flex;
+    
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    padding: 10px;
+    gap: 50px;
+     
+   
+}
+.Location{
+   font-size: 23px;
+   width: 600px;
+   background-color: white;
+   padding: 80px;
+}
+.Location i{
+    font-size: 90px;
+}
+.Location h1{
+    font-family: 'Montserrat', sans-serif;;
+}
+.Location button{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 20px;
+}
+.Location button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+.place{
+    font-size: 23px;
+    background-color: rgb(158, 94, 21);
+    padding: 80px;
+    width: 600px;
+    
+}
+.place i{
+     font-size: 98px;
+     margin-top: 0%;
+}
+.place h1{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        
+}
+.place button{
+    
+    width: 20vh;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: rgb(211, 165, 65);
+}
+.place button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+.food{
+     font-size: 23px;
+   width: 600px;
+   background-color: white;
+   padding: 80px;
+}
+.food i{
+     font-size: 98px;
+}
+.food h1{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        
+}.food button{
+    
+    width: 20vh;
+    height: 5vh;
+    border-radius: 20px;
+}
+.food button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
